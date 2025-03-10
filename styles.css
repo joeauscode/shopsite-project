@@ -1,0 +1,1315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.genloyout{
+    margin: auto;
+    width: 90%;
+}
+
+
+
+/* sign up nav styling */
+
+.firstnav{
+    background-color: #4a6d97;
+    /* padding: .1rem 0rem; */
+
+}
+
+.navcover{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    vertical-align: middle;
+    align-items: center;
+}
+
+.Lnav{
+    padding: .3rem 0rem;
+    width: 200px;
+}
+.Rnav{
+    padding: .4rem 0rem;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+.Lnav>span{
+    margin: .3rem;
+    background-color: white;
+    padding: .3rem .4rem;
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.Rnav{
+    color: white;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    
+}
+.Rnav>a,div>a{
+    color: white ;
+    text-decoration: none;
+    margin: .3rem;   
+    font-size: 18px; 
+    font-weight: 400;
+}
+
+
+/* Nav bar styling */
+
+nav{
+    background-color: black;
+    padding: 1rem 0;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+
+#toggle, .phone{
+    display: none;
+}
+.middlitem>ul{
+    margin-left: 24rem;
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    
+}
+.middlitem>ul>li>a>span{
+    color: #bf6010;
+}
+.middlitem>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 18px;
+}
+.middlitem{
+    display: flex;
+}
+
+.searchbar>input{
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    outline: none; 
+}
+
+
+.right{
+    /* border: 3px solid; */
+    width: 120px;
+}
+.right>img{
+ width: 100%;
+}
+
+
+
+/* ============================================================= */
+
+
+
+/* section 1 styling */
+
+.mainsection{
+    background: linear-gradient(to right, #f6dcbe 50%, #e1680b 50%);
+}
+.writeupwrapper{
+    display: flex;
+    margin-bottom: 6rem;
+}
+
+.same{
+    margin-block: 5rem;
+}
+.writeup{
+    /* border: 2px solid; */
+    width: 900px;
+    
+}
+.writeup > div>p{
+  /* border: 2px solid green; */
+  font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  margin-bottom: 1rem;
+  width: 600px;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  /* font-style: normal; */
+}
+.writeup > div>h1{
+    /* border: 2px solid green; */
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    margin-bottom: 2rem;
+    font-weight: 750;
+    width: 600px;
+    font-size: 50px;
+    text-transform: uppercase; 
+}
+.writeup > div>a>button{
+background-color: #e1680b;
+border: none;
+width: 250px;
+height: 50px;
+border-radius: 60px;
+font-family: "Karla", serif;
+font-weight: 500;
+font-size: 16px;
+color: white;
+margin-top: 2rem;
+
+}
+
+.image{
+    /* border: 2px solid black; */
+    /* border: 2px solid #e1680b; */
+    /* border: 3px solid; */
+    width: 1200px;
+    margin: auto .4rem;
+}
+
+.image>img{
+    /* border-bottom-right-radius: 60px; */
+    /* border-top-left-radius: 60px; */
+    width: 100%;
+    height: 100%;
+    rotate: -5deg;
+}
+
+
+
+
+/* ========================================================= */
+
+
+/* section 2 stylings */
+
+.categories>div{
+    width: 600px;
+    margin: auto;
+}
+.categories>div>h1{
+    margin-block: 1rem;
+    text-align: center;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-size: 40px; 
+}
+.categories>div>p{
+    text-align: center;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+.imdivsec{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 4rem;
+}
+.imdivsec>div>img{
+    width: 180px;
+    height: 200px;
+    margin-block: 1.5rem;       
+}
+.imdivsec>div>p{
+    text-align: center;      
+    font-family: "Karla", serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white; 
+}
+
+.imdivsec>div{
+    border: 3px solid;
+    width: 190px;
+    height: 320px;
+    border-radius: 100px;
+}
+
+
+
+/* ================================================================================================ */
+
+
+
+/* section 3 */
+.writeupdiv{
+    /* border: 3px solid; */
+    width: 600px;
+    margin: auto;
+  }
+  .writeupdiv>h1{
+      margin-block: 1rem;
+      text-align: center;
+      font-family: "Karla", serif;
+      font-optical-sizing: auto;
+      font-weight: 550;
+      font-size: 40px; 
+  }
+  .writeupdiv>p{
+      text-align: center;
+      font-family: "Karla", serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-size: 16px;
+  }
+  
+  .shopall{
+      width: 600px;
+      margin: 2.4rem auto;
+      /* border: 2px solid; */
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .shopall>a{
+      color: black;
+      font-family: "Karla", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-size: 25px;
+  }
+  
+ 
+
+  .shopclas{
+   display: flex;
+   justify-content: space-between;
+   /* border: 3px solid; */
+   gap: 1rem;
+
+}
+.shopclas>div{
+    background-color: #d6d2d2;
+    width: 100%;
+    height: 400px;
+
+   
+}
+
+.imgdivv{
+    height: 400px;
+    /* border: 3px solid #bebdbd; */
+    /* border: 3px solid; */
+    background-color: #bebdbd;
+}
+
+.imgdivv>.imgitself{
+    width: 100%;
+    height: 400px;
+
+}
+
+
+.innercardwrite{
+    display: flex;
+    /* margin-top: 1rem; */
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10rem; */
+    /* margin-left: 1rem; */
+}
+
+.innercardwrite>h3{
+    color: black;
+    font-family: "Karla", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 15px;
+    margin-block: 1rem;
+}
+.innercardwrite>span{
+    color:white ;
+    margin-block: 1rem;
+    border: 2px solid;
+    background-color: #e1680b;
+    padding: .4rem 1rem;
+    border-radius: 40px;
+}
+
+.insidecardgen{
+    /* border: 3px solid; */
+    max-width: 90%;
+    margin: auto;
+}
+
+.lastwriteupforcard>.spanner{
+    margin-block: 1rem;
+    display: block;
+    color: chocolate;
+}
+
+
+/* =============================================================================================== */
+
+
+/* section 4 stlying */
+
+.viewallbuton>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 5rem;
+    }
+    .viewallbuton>div>button{
+        color: white;
+        background-color: #e1680b;
+        padding: .7rem 4rem;
+        border-radius: 40px;
+        border: none;
+        cursor: pointer;
+        font-family: "Karla", serif;
+        font-weight: 600;
+        font-size: 16px;
+       
+    }
+    
+    .maincardwrap{
+        display: flex;
+        margin-block: 1.5rem;
+        column-gap: 2rem;
+        height: 400px;
+    }
+
+    .titi{
+        display: flex;
+
+    }
+
+    .maincardwrap>div>div>.imgg{
+        width: 200px;
+        margin-top: 13rem;       
+    }
+    .maincardwrap>div>.wriii{
+        /* border: 3px solid; */
+        width: 400px;
+        margin-left: 2rem;
+    }
+    .wriii>h4{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        margin-block: 2rem;
+        
+    }
+    .wriii>h1{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 2rem;
+    }
+    .wriii>span{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        display: block;
+        /* margin-top: 2rem; */
+    }
+    
+    /* section 4 secon card */
+    
+    .maincardwrap>.seconcard{
+        display: flex;
+    }
+    .seconcard>.im>.img{
+    width: 100%;    
+    }
+    
+    .mnm{
+        width: 500px
+    }
+
+    .seconcard>div>p{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        margin-block: 2rem;
+        margin-left: 1rem;
+    }
+    .seconcard>div>h1{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+        /* border: 2px solid; */
+        margin-left: 1rem;
+    }
+    .seconcard>div>button{
+        margin-left: 1rem;
+        padding: .8rem 3rem;
+        border: none;
+        background-color: #e1680b;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    /* third card */
+    .lastcard>div{
+        display: flex;
+        background-color: #1b6170;
+        /* width: 50%; */
+        
+    }
+    .lastcard>div{
+        margin-block: 2rem;
+        
+
+    }
+    .lastcard>div>div>h1{
+        /* border: 3px solid; */
+        width: 800px;
+    }
+    .lastcard>div>div>p{
+        font-family: "Karla", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 15px;
+        color: white; 
+        margin-block: 2rem;
+        /* border: 4px solid; */
+        width: 600px;
+    }
+    .lastcard>div>div>button{
+        padding: .8rem 4rem;
+        border: none;
+        background-color: #e1680b;
+        border-radius: 20px;
+        color: white;
+        font-size: 17px;
+    }
+
+    .lastcard >div> .iiiin{
+        width: 50%;
+        
+    }
+
+    .lastcard >div> .iiiin>img{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: 400px;
+    }
+
+
+/* ========================================================== */
+
+
+    /* SECTION 5 */
+
+.headwrte>h1{
+    margin-top: 7rem;
+    /* border: 2px solid; */
+    font-family: "Karla", serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+   }
+   .headwrte>div{
+       /* border: 2px solid; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+       margin-block: 2rem;
+   
+   }
+   .headwrte>div>span{
+       font-family: "Karla", serif;
+       font-weight: 500;
+       font-size: 16px;
+   }
+   
+   .thecards{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       /* overflow: scroll; */
+       column-gap: 1rem;
+       row-gap: 0;
+   
+   
+   }
+   .thecards>div{
+       border: 1px solid #e0dddd;
+       margin-top: 1rem;
+      /* width: 300px; */
+   }
+   .thecards>div>.ims{
+       background-color: #f3f3f3;
+   }
+   
+   .thecards>div>.ims>img{
+       width: 100%;
+   }
+   
+   .spanwork{
+       margin-block: 1rem;
+   }
+   .spanwork>div{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       /* border: 2px solid; */
+       width: 90%;
+       margin: auto ;
+       /* margin-block: 1rem; */
+   
+   }
+   
+   .spanwork>div>h1{
+       color: #e1680b;
+       margin-block: 1.4rem;
+       font-family: "Karla", serif;
+       font-weight: 500;
+       font-size: 20px;
+   }
+   .spanwork>span{
+       font-family: "Karla", serif;
+       font-weight: 400;
+       font-size: 17px;
+       margin-left: 1rem;
+       /* font-size: 30px; */
+   }
+   
+/* ======================================================================= */
+
+   /* section 6 styling */
+
+.HEADWRITEUP{
+    margin-block: 3rem;
+    font-family: "Karla", serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.HEADWRITEUP>.hhhd, .ppp{
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.cardforrthcloh{
+    gap: 2rem;
+    display: flex;
+}
+
+
+.imhhhfiv>img{
+    /* border: 3px solid; */
+    width: 100%;
+    
+}
+
+.cardforrthcloh>div>div>h1{
+    text-align: center;
+    font-family: "Karla", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+ 
+/* ================================================================== */
+
+/* section 7 */
+
+.secsevenhere{
+    margin-block: 3rem;
+}
+
+.secsevenhere>img{
+    width: 100%;
+}
+
+
+
+
+/* ============================================ */
+
+
+/* SECTION 8 */
+
+.suggestted{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestted>div>h1{
+    font-family: "Karla", serif;
+    font-weight: 600;
+    font-size: 40px;
+   
+}
+
+.butn>button{
+    padding: .9rem 2rem;
+    background-color: white;
+    border-radius: 40px;
+    margin: .3rem;
+    border: 1px solid;
+}
+
+/* ==================== */
+
+.cardcloths{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+    gap: 1rem;
+
+}
+.thecardnows{
+    display: flex;
+}
+
+.thecardnows>div{
+    /* border: 3px solid; */
+    height: 140px;
+    width: 190px;
+}
+.thecardnows>div>img{
+    background-color: #f3f3f3;
+    height: 140px;
+    width: 100%;
+}
+
+.wrete{
+    margin-left: 1rem;
+}
+.wrete>h4{
+  margin-block: 2rem;
+  font-family: "Karla", serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.wrete>span{
+    font-family: "Karla", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+/* section 10 */
+
+.holderrrer{
+    display: flex;
+    margin-block: 10rem;
+    column-gap: 10rem;
+}
+.holderrrer>.btnnn{
+    /* border: 3px solid; */
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.holderrrer>div>button{
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    /* margin: 1rem; */
+    outline: none;
+    border: none;
+    padding: 2rem 2rem;
+    width: 100%;
+    text-align: start;
+}
+
+.holderrrer>.imgha{
+    /* border: 3px solid; */
+    margin: auto;
+}
+
+.holderrrer>.imgha>div{
+    /* border: 6px solid green; */
+    border: 5px solid yellow;
+    border-radius: 200px;
+    width: 350px;
+    height: 600px;
+
+} 
+.holderrrer>.imgha>div>img{
+   /* border: 10px solid; */
+   border-radius: 200px;
+   width: 370px;
+   height: 610px;
+   margin: 1rem -1rem ;
+}
+
+
+
+
+/* ====================================================== */
+
+/* section 11 */
+
+.seceleven> .heeed{
+    display: flex;
+    margin-block: 3rem;
+    gap: 5rem;
+}
+.heeed>p{
+    /* border: 3px solid green; */
+    flex: 1;
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.heeed>h1{
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#maincon{
+    /* display: flex; */
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 4px solid green; */
+}
+
+.theimgside{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.imss>img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+
+/* ============================================================================= */
+
+/* section 12 */
+
+
+
+/* section 12 */
+.firtsone{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.firtsone>div>div{
+    /* border: 3px solid; */
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+}
+.firtsone>div>div>p{
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    /* border: 3px solid yellow; */
+}
+
+.firtsone>div>div>img{
+   width: 70px;
+   /* border: 3px solid green; */
+    
+}
+
+
+/* =================================================== */
+
+/* section 13 */
+
+.lineimg{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* border: 3px solid green; */
+    
+}
+
+.lineimg>img{
+    width: 100%;
+}
+
+
+/* ================================================
+The footer
+sectio 14 */
+
+
+/* section 14 the footer  */
+footer{
+    background-color: #000000;
+   }
+   
+   .fot{
+       display: flex;
+       /* margin-top: 3rem; */
+   }
+   
+   .fot>div{
+       margin-top: 4rem;
+       flex: 1;
+   }
+   .lastca>div>p{
+       font-family: "Karla", serif;
+       font-weight: 500;
+       font-size: 15px;
+       color: white;
+   }
+
+   .gotone{
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+
+ul>li{
+ list-style-type: none;
+}
+ul>li>p{
+    /* text-decoration: none; */
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+ul>li>a{
+    text-decoration: none;
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+   }
+
+   .signuiplaceholder>p{
+    font-family: "Karla", serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+   }
+
+   .signuiplaceholder>input{
+    border: 1px solid white;
+    /* background-color: black; */
+    outline: none;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    width: 250px;
+    margin-bottom: 1rem;
+    text-decoration: white;
+   }
+   
+   .signuiplaceholder>button{
+    background-color: white;
+    border: none;
+    padding: .4rem .3rem;
+    border-radius: 10px;
+   }
+   .lastca{
+       display: flex;
+       justify-content: space-between;
+       padding: 1rem 0rem;
+       /* border: 2px solid green; */
+   }
+   
+   
+   
+
+
+
+
+
+
+
+
+
+/* phone responsive desgin styling */
+
+@media(min-width: 340px) and (max-width: 412px){
+    /* Header responsive sign up styling */
+
+.Rnav>a{
+    font-size: 15px;
+}
+.Rnav{
+    /* border: 4px solid; */
+    margin: auto;
+    display: flex;
+}
+.Lnav{
+    display: none;
+}
+
+
+/* nav bar styling  */
+.phone{
+    display: block;
+    /* border: 4px solid; */
+    color: white;
+    font-size: 30px;
+    margin-left: 8.5rem;
+
+}
+
+
+.middlitem>ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.middlitem>ul>li>a{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rightnavhambuger, .searchbar{
+    display: none;
+    /* width: 100px; */
+}
+
+#toggle:checked + .rightnavhambuger {
+    display: block;
+     display: flex;
+  }
+
+  .buycart>span{
+    display: block;
+    margin: auto;
+  }
+ 
+
+
+
+
+  /* section 1 */
+
+  .mainsection{
+    background: linear-gradient(to top, #f6dcbe 50%, #e1680b 50%);
+}
+
+  .writeupwrapper{
+    flex-direction: column-reverse;
+  }
+  .image{
+    width: 310px;
+    /* margin-top: 2rem; */
+    /* border: 2px solid green; */
+    margin: 2rem auto;
+  }
+
+  .writeup{
+    /* border: 3px solid green; */
+    width: 310px;
+    margin: .4rem auto;
+  }
+
+  .writeup>div>h1{
+    /* border: 2px solid yellow; */
+    width: 310px;
+    font-size: 17px;
+  }
+  .writeup>div>p{
+    font-size: 20px;
+    /* margin-top: -2rem; */
+    /* border: 2px solid green; */
+    width: 320px;
+    color: #000000;
+  }
+
+  .writeup>div>.ptag{
+    font-size: 15.5px;
+    margin-top: -1rem;
+    color: #000000;
+    /* border: 2px solid green; */
+    width: 320px;
+  }
+  .writeup>div>a>button{
+    font-size: 15px;
+    margin-top: 2rem;
+    color: white;
+    width: 200px;
+  }
+  
+ 
+
+  /* ============================================== */
+
+  /* section 2 styling */
+
+  .imdivsec{
+    /* border: 3px solid; */
+    overflow: scroll;
+    gap: 1rem;
+  }
+
+  .categories>div{
+    /* border: 3px solid; */
+    margin-top: -3rem;
+    width: 320px;
+  }
+  .categories>div>h1{
+    /* border: 3px solid; */
+    font-size: 25px;
+    /* width: 320px; */
+  }
+
+
+
+  /* =========================================== */
+
+  /* section 3 */
+
+  .shopall{
+    width: 320px;
+  }
+  .shopall>a{
+    font-size: 15px;
+  }
+
+  .writeupdiv{
+    width: 320px;
+  }
+  .writeupdiv>h1{
+    font-size: 20px;
+  }
+  .writeupdiv>p{
+    font-size: 16px;
+  }
+  .lastwriteupforcard{
+    margin-left: -1rem;
+  }
+
+  .shopclas{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+
+
+  /* section 4 */
+ 
+  .viewallbuton>div{
+    margin-top: -3rem;
+    /* border: 10px solid green; */
+    width: 300;
+  }
+
+  .maincardwrap{
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .seconcard{
+    flex-direction: column-reverse;   
+  }
+
+  .mnm{
+    width: 300px;
+    margin: auto;
+  }
+  .titi{
+    width: 100%;
+    /* border: 3px solid green; */
+  }
+
+  .titi>.wriii>span{
+    display: block;
+    margin-left: 0rem;
+  }
+
+  .maincardwrap>div>div>.imgg{
+    width: 200px;
+    margin-left: -6rem;
+    /* border: 4px solid; */
+  }
+/* ============================= */
+  .lastcard{
+    display: none;
+  }
+  /* ======================================= */
+
+
+
+
+
+  /* section 5 styling */
+
+  .movedownl{
+    margin-top: 60rem;
+  }
+
+  .thecards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-block: 3rem;
+   
+  }
+
+
+
+/* --============================================== */
+  /* styling 6 */
+
+  .HEADWRITEUP>.hhhd, .ppp{
+    width: 100%;
+  }
+
+  .HEADWRITEUP>.ppp{
+    font-size: 13px;
+  }
+
+  .cardforrthcloh{
+    flex-direction: column;
+  }
+
+
+  /* ===================================== */
+  /* section 8 */
+  .suggestted{
+   flex-direction: column;
+    
+  }
+
+  .butn>button{
+    font-size: 10px;
+  }
+
+  .suggestted>div>h1{
+    font-size: 25px;
+    margin-block: 1rem;
+    
+  }
+
+
+  .butn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+  }
+  .wrete>h4,span{
+    margin-left: 2rem;
+  }
+  .wrete{
+    margin-left: -1rem;
+  }
+  .cardcloths{
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    overflow: scroll;
+    
+  }
+
+
+
+  /* ================================ */
+
+  /* section 10 */
+
+  .holderrrer{
+    flex-direction: column;
+  }
+
+  .holderrrer>.imgha{
+    margin-block: 3rem;
+  }
+  .btnnn>h1{
+    font-size: 20px;
+    margin-top: -5rem;
+  }
+
+
+  /* ======================================= */
+  /* section 11 */
+
+  #maincon{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 2rem;
+  }
+
+  .seceleven> .heeed{
+    flex-direction: column;
+    margin-top: -3rem;
+  }
+  .heeed>p{
+    margin-top: -4rem;
+    font-size: 17px;
+  }
+
+
+
+  /* ========================================================= */
+
+  /* section 12 */
+
+  .firtsone{
+    width: 100%;
+    /* border: 3px solid; */
+  }
+
+  .firtsone>div>div{
+   margin-left: 1rem;
+  }
+
+  .firtsone>div>div>p{
+    /* border: 2px solid; */
+    font-size: 10px;
+    /* margin: auto; */
+    text-align: center;
+  }
+
+
+
+  /* ======================================================= */
+  /* section 14 */
+
+  .fot{
+    flex-direction: column;
+  }
+
+  .lastca{
+    flex-direction: column;
+  }
+
+  .lastca>div>p{
+    text-align: center;
+    /* border: 2px solid green; */
+  }
+
+  ul{
+    margin-top: -3rem;
+  }
+}
