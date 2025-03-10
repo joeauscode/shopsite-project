@@ -955,7 +955,7 @@ ul>li>a{
 
 /* phone responsive desgin styling */
 
-@media(min-width: 340px) and (max-width: 412px){
+@media(min-width: 320px) and (max-width: 428px){
     /* Header responsive sign up styling */
 
 .Rnav>a{
